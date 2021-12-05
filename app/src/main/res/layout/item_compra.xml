@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp"
+        android:textColor="#1E90FF"
+        android:id="@+id/txtNameProductBougth"
+        android:layout_row="0"
+        android:layout_column="1" />
+
+
+    <TextView
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"
+        android:textColor="#4B0082"
+        android:id="@+id/txtPriceProductBought"
+        android:layout_row="1"
+        android:layout_column="1" />
+
+    <TextView
+        android:id="@+id/txtState"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_row="0"
+
+        android:layout_rowSpan="2"
+        android:layout_column="2"
+        android:gravity="center"
+        android:text="Estado"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</GridLayout>
